@@ -1,0 +1,26 @@
+{
+  "name": "fed-chemistry-101",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bolshchikov-public/fed-chemistry-101",
+  "authors": [
+    "bolshchikov <sergey@bolshchikov.net>"
+  ],
+  "description": "introduction to polymer with angular",
+  "main": "index.html",
+  "keywords": [
+    "polymer",
+    "webcomponents",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.4.2"
+  }
+}
