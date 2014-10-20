@@ -3,13 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Front-End Chemistry 101: Polymer</title>
+    <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/platform/platform.js"></script>
     <script src="bower_components/polymer/polymer.js"></script>
     <link rel="import" href="components/progress-bar/progress-bar.html"/>
   </head>
-  <body>
-
-  <progress-bar progress="80"></progress-bar>
+  <body ng-app>
+    <input type="range" ng-model="value"/>
+    <div>{{value}}</div>
+    <progress-bar progress="{{value}}"></progress-bar>
 
   </body>
 </html>
