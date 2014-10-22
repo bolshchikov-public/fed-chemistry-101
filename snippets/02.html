@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Custom Elements Example</title>
+  </head>
+  <script>
+
+    var proto = Object.create(HTMLElement.prototype);
+    proto.createdCallback = function () {
+      this.innerHTML = 'hello world';
+    };
+
+    document.registerElement('progress-bar', {
+      prototype: proto
+    });
+
+  </script>
+  <body>
+    <progress-bar></progress-bar>
+  </body>
+</html>
