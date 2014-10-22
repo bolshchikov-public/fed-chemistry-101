@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Templates Example</title>
+  </head>
+  <body>
+    <template id="progress-bar">
+      <div class="wrapper">
+        <div class="progress"></div>
+      </div>
+    </template>
+
+    <script>
+      var t, clone;
+
+      t = document.querySelector('#progress-bar');
+
+      // Populate the src at runtime.
+      t.content.querySelector('.progress').innerHTML = 'Hello world!';
+
+      clone = document.importNode(t.content, true);
+      document.body.appendChild(clone);
+    </script>
+  </body>
+</html>
