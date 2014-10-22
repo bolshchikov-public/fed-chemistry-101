@@ -1,0 +1,10 @@
+<script>
+  var proto = Object.create(HTMLElement.prototype);
+  proto.createdCallback = function () {
+    this.innerHTML = 'hello world';
+  };
+
+  document.registerElement('progress-bar', {
+    prototype: proto
+  });
+</script>
