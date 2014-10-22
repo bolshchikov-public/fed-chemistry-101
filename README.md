@@ -23,7 +23,10 @@ or clone it. From the terminal, navigate to the project folder and launch the se
 1. Polymer motivation and structure
 1. Polymer core
     - Creating element
-    - Styling
+        - Declaration
+        - Templating
+        - Public Attributes
+        - Two-way Bindings
     - Layout
     - Integration
 1. Element
