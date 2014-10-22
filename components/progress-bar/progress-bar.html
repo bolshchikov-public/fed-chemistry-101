@@ -9,7 +9,10 @@
   </template>
   <script>
     Polymer({
-      progress: 1
+      progressChanged: function (oldVal, newVal) {
+        var val = parseInt(newVal, 10);
+        if (val === 100) { alert('Success!'); }
+      }
     });
   </script>
 </polymer-element>
