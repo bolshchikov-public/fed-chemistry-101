@@ -2,20 +2,18 @@
   <head>
     <title>Shadow DOM Example</title>
   </head>
-  <script>
 
-    var proto = Object.create(HTMLElement.prototype);
-    proto.createdCallback = function () {
-      this.innerHTML = 'hello world';
-    };
-
-    document.registerElement('progress-bar', {
-      prototype: proto
-    });
-
-  </script>
   <body>
     <h1>Shadom DOM Example</h1>
-    <progress-bar></progress-bar>
+
+    <button>Hello world!</button>
+
+    <script>
+      var host, root;
+      host = document.querySelector('button');
+      root = host.createShadowRoot();
+      root.textContent = 'Shadow DOM!';
+    </script>
+
   </body>
 </html>
