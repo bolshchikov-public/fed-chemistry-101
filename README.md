@@ -15,22 +15,25 @@ or clone it. From the terminal, navigate to the project folder and launch the se
 
 ### Outline
 
+1. Why front-end development is hard?
 1. Recap of web components
-    - Templates
-    - Custom Elements
-    - Shadow DOM
-    - HTML Imports
-1. Polymer motivation and structure
+    - [Templates](http://goo.gl/cbixjG)
+    - [Custom Elements](http://goo.gl/Swm3LP)
+    - [Shadow DOM](http://goo.gl/4XkpTI)
+    - [HTML Imports](http://goo.gl/EUxxrv)
+1. Polymer motivation structure
 1. Polymer core
     - Creating element
         - Declaration
         - Templating
-        - Public Attributes
         - Two-way Bindings
-    - Layout
+        - Public Attributes
     - Integration
-1. Element
-    - Core elements
-    - Paper elements
+    - Layout
+1. Polymer Eco System
+    - [Core & Paper Elements](https://www.polymer-project.org/docs/elements/)
+    - [Custom Elements Gallery](http://customelements.io/)
+    - [Polymer Seed Element](https://github.com/PolymerLabs/seed-element)
+    - [Web Component Tester](https://github.com/Polymer/web-component-tester)
 1. Practice
 1. Resources
