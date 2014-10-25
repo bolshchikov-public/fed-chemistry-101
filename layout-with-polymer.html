@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Layout w/ Polymer</title>
+  <script src="bower_components/platform/platform.js"></script>
+  <script src="bower_components/polymer/polymer.js"></script>
+  <link rel="import" href="bower_components/polymer/layout.html"/>
+  <style type="text/css">
+    div {
+      border: 1px solid grey;
+    }
+  </style>
+</head>
+
+<body fullbleed vertical layout>
+  <div flex layout vertical>
+    <div>Block 1</div>
+    <div flex>Block 2</div>
+    <div>Block 3</div>
+  </div>
+</body>
+
+</html>

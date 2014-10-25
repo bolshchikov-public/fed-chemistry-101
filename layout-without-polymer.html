@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Layout w/ Polymer</title>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+    div {
+      border: 1px solid grey;
+    }
+    .container div {
+      position: absolute;
+      left: 0;
+      right: 0;
+    }
+    .header {
+      top: 0;
+    }
+    .content {
+      top: 18px;
+      bottom: 18px;
+    }
+    .footer {
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Block 1</div>
+    <div class="content">Block 2</div>
+    <div class="footer">Block 3</div>
+  </div>
+</body>
+</html>
