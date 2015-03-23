@@ -5,8 +5,8 @@
   "authors": [
     "bolshchikov <sergey@bolshchikov.net>"
   ],
-  "description": "introduction to polymer with angular",
-  "main": "index.html",
+  "description": "Introduction to polymer with angular",
+  "main": "demo.html",
   "keywords": [
     "polymer",
     "webcomponents",
@@ -21,7 +21,7 @@
     "tests"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#~0.4.2",
+    "polymer": "Polymer/polymer#~0.5.5",
     "angular": "~1.3.0"
   }
 }
