@@ -16,7 +16,8 @@ or clone it. From the terminal, navigate to the project folder and launch the se
 ### Outline
 
 1. Why front-end development is hard?
-1. Recap of web components
+1. How it might be better with components model?
+1. Web components umbrella
     - [Templates](http://goo.gl/cbixjG)
     - [Custom Elements](http://goo.gl/Swm3LP)
     - [Shadow DOM](http://goo.gl/4XkpTI)
@@ -28,6 +29,8 @@ or clone it. From the terminal, navigate to the project folder and launch the se
         - Templating
         - Two-way Bindings
         - Public Attributes
+        - Observing
+        - Events
     - Integration
     - Layout
 1. Polymer Eco System
@@ -35,5 +38,6 @@ or clone it. From the terminal, navigate to the project folder and launch the se
     - [Custom Elements Gallery](http://customelements.io/)
     - [Polymer Seed Element](https://github.com/PolymerLabs/seed-element)
     - [Web Component Tester](https://github.com/Polymer/web-component-tester)
+    - [Aurelia Framework](http://aurelia.io)
 1. Practice
 1. Resources
