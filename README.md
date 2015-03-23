@@ -22,8 +22,8 @@ or clone it. From the terminal, navigate to the project folder and launch the se
     - [Custom Elements](http://goo.gl/Swm3LP)
     - [Shadow DOM](http://goo.gl/4XkpTI)
     - [HTML Imports](http://goo.gl/EUxxrv)
-1. Polymer motivation structure
-1. Polymer core
+1. Polymer structure
+1. Polymer example component
     - Creating element
         - Declaration
         - Templating
