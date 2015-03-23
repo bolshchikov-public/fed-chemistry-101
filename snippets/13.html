@@ -1,18 +1,13 @@
-<polymer-element name="progress-bar" attributes="progress">
+<polymer-element name="progress-bar">
   <template>
     <link rel="stylesheet" href="progress-bar.css"/>
-
     <div class="wrapper">
-      <div id="progress" style="width: {{progress}}%;"></div>
+      <div id="progress" style="width: 50%;"></div>
     </div>
-
   </template>
   <script>
-    Polymer({
-      progressChanged: function (oldVal, newVal) {
-        var val = parseInt(newVal, 10);
-        if (val === 100) { alert('Success!'); }
-      }
-    });
+    (function () {
+      Polymer();
+    })();
   </script>
 </polymer-element>

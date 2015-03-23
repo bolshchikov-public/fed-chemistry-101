@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Front-End Chemistry 101: Polymer</title>
+  <script src="bower_components/webcomponentsjs/webcomponents.js"></script>
+  <link rel="import" href="bower_components/polymer/polymer.html"/>
+  <link rel="import" href="components/progress-bar/progress-bar.html"/>
+</head>
+
+<body>
+
+  <progress-bar progress="30">30</progress-bar>
+
+  <script>
+    document.querySelector('progress-bar')
+        .addEventListener('complete', function (ev) {
+          console.log(ev);
+        });
+  </script>
+
+</body>
+</html>

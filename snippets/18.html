@@ -1,0 +1,17 @@
+<polymer-element name="progress-bar" attributes="progress">
+  <template>
+    <link rel="stylesheet" href="progress-bar.css"/>
+    <div class="wrapper">
+      <div id="progress" style="width: {{progress}};">
+        <content></content>
+      </div>
+    </div>
+  </template>
+  <script>
+    (function () {
+      Polymer({
+        progress: 50
+      });
+    })();
+  </script>
+</polymer-element>
