@@ -8,15 +8,15 @@
     </div>
   </template>
   <script>
-    (function () {
+    (function() {
       Polymer({
-        progress: 20,
+        progress: 30,
         progressChanged: function (oldVal, newVal) {
           if (parseInt(newVal, 10) === 100) {
             this.fire('complete');
           }
         }
       });
-    })()
+    })();
   </script>
 </polymer-element>

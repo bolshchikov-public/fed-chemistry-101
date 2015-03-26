@@ -6,32 +6,31 @@
   <style type="text/css">
     body {
       margin: 0;
+
     }
-    div {
-      border: 1px solid grey;
-    }
-    .container div {
+    .container * {
       position: absolute;
       left: 0;
       right: 0;
+      border: 1px solid grey;
     }
-    .header {
+    header {
       top: 0;
     }
     .content {
       top: 18px;
       bottom: 18px;
     }
-    .footer {
+    footer {
       bottom: 0;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="header">Block 1</div>
+    <header>Block 1</header>
     <div class="content">Block 2</div>
-    <div class="footer">Block 3</div>
+    <footer>Block 3</footer>
   </div>
 </body>
 </html>
