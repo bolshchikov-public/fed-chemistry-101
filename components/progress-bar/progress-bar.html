@@ -1,20 +1,22 @@
-<polymer-element name="progress-bar" attributes="progress color">
+<polymer-element name="progress-bar" attributes="progress">
   <template>
     <link rel="stylesheet" href="progress-bar.css"/>
     <div class="wrapper">
-      <div id="progress" style="background-color: {{color}}; width: {{progress}}%">
+      <div id="progress" style="width: {{progress}}%">
         <content></content>
       </div>
     </div>
   </template>
   <script>
-    Polymer({
-      progressChanged: function (oldVal, newVal) {
-        if (parseInt(newVal, 10) === 100) {
-          this.fire('complete');
+    (function () {
+      Polymer({
+        progress: 20,
+        progressChanged: function (oldVal, newVal) {
+          if (parseInt(newVal, 10) === 100) {
+            this.fire('complete');
+          }
         }
-      }
-    });
+      });
+    })()
   </script>
-
 </polymer-element>
