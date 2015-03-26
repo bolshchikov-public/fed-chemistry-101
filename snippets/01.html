@@ -13,15 +13,23 @@
     </template>
 
     <script>
-      var t, clone;
 
-      t = document.querySelector('#progress-bar');
+      function createTemplate(text) {
+        var t, clone;
 
-      // Populate the src at runtime.
-      t.content.querySelector('.progress').innerHTML = 'Hello world!';
+        t = document.querySelector('#progress-bar');
 
-      clone = document.importNode(t.content, true);
-      document.body.appendChild(clone);
+        clone = document.importNode(t.content, true);
+
+        // Populate the src at runtime.
+        clone.querySelector('.progress').innerHTML = text;
+
+        document.body.appendChild(clone);
+      }
+
+      createTemplate('Hello world');
+      createTemplate('Hello meetup');
+
     </script>
   </body>
 </html>
